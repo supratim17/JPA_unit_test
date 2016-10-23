@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE class [
+   <!ELEMENT class (employee+)>
+   <!ELEMENT employee (firstname,lastname,designation,salary)>
+   <!ELEMENT firstname (#PCDATA)>
+   <!ELEMENT lastname (#PCDATA)>
+   <!ELEMENT designation (#PCDATA)>
+   <!ELEMENT salary (#PCDATA)>
+]> -->
+
+<!DOCTYPE note SYSTEM "employee.dtd">
+
+<class>
+	<employee>
+		<firstname>Amit</firstname>
+		<lastname>Singh</lastname>
+		<designation>Tester</designation>
+		<salary>35000.00</salary>
+	</employee>
+	
+	<employee>
+		<firstname>Ankit</firstname>
+		<lastname>Kumar</lastname>
+		<designation>Developer</designation>
+		<salary>63000.00</salary>
+	</employee>
+	
+</class>
